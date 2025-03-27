@@ -1,0 +1,405 @@
+<assemblies timestamp="08/16/2024 22:00:16">
+  <assembly name="/projects/challenge/HRBackendExercise.API.Tests/bin/Debug/net6.0/HRBackendExercise.API.Tests.dll" run-date="2024-08-16" run-time="22:00:16" total="47" passed="0" failed="47" skipped="0" time="3.258" errors="0">
+    <errors />
+    <collection total="1" passed="0" failed="1" skipped="0" name="Test collection for HRBackendExercise.API.Tests.Basic.Controller_DeleteShould" time="0.015">
+      <test name="ControllerDeleteShouldReturnSuccessStatusCode" type="HRBackendExercise.API.Tests.Basic.Controller_DeleteShould" method="ReturnSuccessStatusCode" time="0.0151945" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Controllers.ProductsController.Delete(Int32 id) in /projects/challenge/HRBackendExercise.API/Controllers/ProductsController.cs:line 33
+   at HRBackendExercise.API.Tests.Basic.Controller_DeleteShould.ReturnSuccessStatusCode() in /projects/challenge/HRBackendExercise.API.Tests/Basic/ControllerBasicTests.cs:line 133</stack-trace>
+        </failure>
+        <traits />
+      </test>
+    </collection>
+    <collection total="1" passed="0" failed="1" skipped="0" name="Test collection for HRBackendExercise.API.Tests.Basic.Controller_GetShould" time="0.002">
+      <test name="ControllerGetShouldReturnOk" type="HRBackendExercise.API.Tests.Basic.Controller_GetShould" method="ReturnOk_OnNotNullProduct" time="0.0023783" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Controllers.ProductsController.Get(Int32 id) in /projects/challenge/HRBackendExercise.API/Controllers/ProductsController.cs:line 18
+   at HRBackendExercise.API.Tests.Basic.Controller_GetShould.ReturnOk_OnNotNullProduct() in /projects/challenge/HRBackendExercise.API.Tests/Basic/ControllerBasicTests.cs:line 23</stack-trace>
+        </failure>
+        <traits />
+      </test>
+    </collection>
+    <collection total="2" passed="0" failed="2" skipped="0" name="Test collection for HRBackendExercise.API.Tests.Basic.Controller_PostShould" time="0.162">
+      <test name="ControllerPostShouldReturnBadRequestOnNullInput" type="HRBackendExercise.API.Tests.Basic.Controller_PostShould" method="ReturnBadRequest_OnNullInputProduct" time="0.1203964" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Controllers.ProductsController.Post(Product product) in /projects/challenge/HRBackendExercise.API/Controllers/ProductsController.cs:line 23
+   at HRBackendExercise.API.Tests.Basic.Controller_PostShould.ReturnBadRequest_OnNullInputProduct() in /projects/challenge/HRBackendExercise.API.Tests/Basic/ControllerBasicTests.cs:line 63</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="ControllerPostShouldReturnSuccessStatusCode" type="HRBackendExercise.API.Tests.Basic.Controller_PostShould" method="ReturnSuccessStatusCode" time="0.0419054" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Controllers.ProductsController.Post(Product product) in /projects/challenge/HRBackendExercise.API/Controllers/ProductsController.cs:line 23
+   at HRBackendExercise.API.Tests.Basic.Controller_PostShould.ReturnSuccessStatusCode() in /projects/challenge/HRBackendExercise.API.Tests/Basic/ControllerBasicTests.cs:line 46</stack-trace>
+        </failure>
+        <traits />
+      </test>
+    </collection>
+    <collection total="2" passed="0" failed="2" skipped="0" name="Test collection for HRBackendExercise.API.Tests.Basic.Controller_PutShould" time="0.051">
+      <test name="ControllerPutShouldReturnSuccessStatusCode" type="HRBackendExercise.API.Tests.Basic.Controller_PutShould" method="ReturnSuccessStatusCode" time="0.0507774" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Controllers.ProductsController.Put(Product product) in /projects/challenge/HRBackendExercise.API/Controllers/ProductsController.cs:line 28
+   at HRBackendExercise.API.Tests.Basic.Controller_PutShould.ReturnSuccessStatusCode() in /projects/challenge/HRBackendExercise.API.Tests/Basic/ControllerBasicTests.cs:line 84</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="ControllerPutShouldReturnBadRequestOnNullProduct" type="HRBackendExercise.API.Tests.Basic.Controller_PutShould" method="ReturnBadRequest_OnNullInputProduct" time="0.0006579" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Controllers.ProductsController.Put(Product product) in /projects/challenge/HRBackendExercise.API/Controllers/ProductsController.cs:line 28
+   at HRBackendExercise.API.Tests.Basic.Controller_PutShould.ReturnBadRequest_OnNullInputProduct() in /projects/challenge/HRBackendExercise.API.Tests/Basic/ControllerBasicTests.cs:line 112</stack-trace>
+        </failure>
+        <traits />
+      </test>
+    </collection>
+    <collection total="1" passed="0" failed="1" skipped="0" name="Test collection for HRBackendExercise.API.Tests.Basic.Service_CreateShould" time="0.000">
+      <test name="ServiceCreateShouldReturnNotNull" type="HRBackendExercise.API.Tests.Basic.Service_CreateShould" method="ReturnNotNull" time="0.0004901" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Services.ProductService.Create(Product entity) in /projects/challenge/HRBackendExercise.API/Services/ProductService.cs:line 10
+   at HRBackendExercise.API.Tests.Basic.Service_CreateShould.ReturnNotNull() in /projects/challenge/HRBackendExercise.API.Tests/Basic/ServiceBasicTests.cs:line 18</stack-trace>
+        </failure>
+        <traits />
+      </test>
+    </collection>
+    <collection total="2" passed="0" failed="2" skipped="0" name="Test collection for HRBackendExercise.API.Tests.Basic.Service_DeleteShould" time="0.002">
+      <test name="ServiceDeleteShouldRemoveProudct" type="HRBackendExercise.API.Tests.Basic.Service_DeleteShould" method="RemoveProduct" time="0.0005821" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Services.ProductService.Create(Product entity) in /projects/challenge/HRBackendExercise.API/Services/ProductService.cs:line 10
+   at HRBackendExercise.API.Tests.Basic.Service_DeleteShould.RemoveProduct() in /projects/challenge/HRBackendExercise.API.Tests/Basic/ServiceBasicTests.cs:line 130</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="ServiceDeleteShouldDoNothing" type="HRBackendExercise.API.Tests.Basic.Service_DeleteShould" method="DoNothing_OnCollectionNotContainsProduct" time="0.0014361" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Services.ProductService.Create(Product entity) in /projects/challenge/HRBackendExercise.API/Services/ProductService.cs:line 10
+   at HRBackendExercise.API.Tests.Basic.Service_DeleteShould.DoNothing_OnCollectionNotContainsProduct() in /projects/challenge/HRBackendExercise.API.Tests/Basic/ServiceBasicTests.cs:line 146</stack-trace>
+        </failure>
+        <traits />
+      </test>
+    </collection>
+    <collection total="2" passed="0" failed="2" skipped="0" name="Test collection for HRBackendExercise.API.Tests.Basic.Service_GetAllShould" time="0.002">
+      <test name="ServiceGetAllShouldReturnEmptyCollection" type="HRBackendExercise.API.Tests.Basic.Service_GetAllShould" method="RetrunEmpty" time="0.0005753" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Services.ProductService.GetAll() in /projects/challenge/HRBackendExercise.API/Services/ProductService.cs:line 20
+   at HRBackendExercise.API.Tests.Basic.Service_GetAllShould.RetrunEmpty() in /projects/challenge/HRBackendExercise.API.Tests/Basic/ServiceBasicTests.cs:line 51</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="ServiceGetAllShouldAllEntries" type="HRBackendExercise.API.Tests.Basic.Service_GetAllShould" method="ReturnAllEntries" time="0.0010062" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Services.ProductService.Create(Product entity) in /projects/challenge/HRBackendExercise.API/Services/ProductService.cs:line 10
+   at HRBackendExercise.API.Tests.Basic.Service_GetAllShould.ReturnAllEntries() in /projects/challenge/HRBackendExercise.API.Tests/Basic/ServiceBasicTests.cs:line 64</stack-trace>
+        </failure>
+        <traits />
+      </test>
+    </collection>
+    <collection total="1" passed="0" failed="1" skipped="0" name="Test collection for HRBackendExercise.API.Tests.Basic.Service_GetShould" time="0.001">
+      <test name="ServiceGetShouldReturnNotNull" type="HRBackendExercise.API.Tests.Basic.Service_GetShould" method="ReturnNotNull_OnValidId" time="0.0006366" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Services.ProductService.Create(Product entity) in /projects/challenge/HRBackendExercise.API/Services/ProductService.cs:line 10
+   at HRBackendExercise.API.Tests.Basic.Service_GetShould.ReturnNotNull_OnValidId() in /projects/challenge/HRBackendExercise.API.Tests/Basic/ServiceBasicTests.cs:line 34</stack-trace>
+        </failure>
+        <traits />
+      </test>
+    </collection>
+    <collection total="2" passed="0" failed="2" skipped="0" name="Test collection for HRBackendExercise.API.Tests.Basic.Service_UpdateShould" time="0.103">
+      <test name="ServiceUpdateShouldThrowException" type="HRBackendExercise.API.Tests.Basic.Service_UpdateShould" method="ThrowException_OnInvalidId" time="0.0988170" result="Fail">
+        <failure>
+          <message>Assert.StartsWith() Failure: String start does not match
+String:         "The method or operation is not implemente"···
+Expected start: "Invalid entity."</message>
+          <stack-trace>   at HRBackendExercise.API.Tests.Basic.Service_UpdateShould.ThrowException_OnInvalidId() in /projects/challenge/HRBackendExercise.API.Tests/Basic/ServiceBasicTests.cs:line 117</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="ServiceUpdateShouldUpdateValues" type="HRBackendExercise.API.Tests.Basic.Service_UpdateShould" method="UpdateValues" time="0.0037559" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Services.ProductService.Create(Product entity) in /projects/challenge/HRBackendExercise.API/Services/ProductService.cs:line 10
+   at HRBackendExercise.API.Tests.Basic.Service_UpdateShould.UpdateValues() in /projects/challenge/HRBackendExercise.API.Tests/Basic/ServiceBasicTests.cs:line 93</stack-trace>
+        </failure>
+        <traits />
+      </test>
+    </collection>
+    <collection total="27" passed="0" failed="27" skipped="0" name="Test collection for HRBackendExercise.API.Tests.Hidden.ControllerTests" time="0.511">
+      <test name="ControllerPostShouldReturnBadRequestOnNullSKU" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Post_ShouldReturnBadRequest_OnNullSKU" time="0.3743070" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Controllers.ProductsController.Post(Product product) in /projects/challenge/HRBackendExercise.API/Controllers/ProductsController.cs:line 23
+   at HRBackendExercise.API.Tests.Hidden.ControllerTests.Post_ShouldReturnBadRequest_OnNullSKU() in /projects/challenge/HRBackendExercise.API.Tests/Hidden/ControllerTests.cs:line 199</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="ControllerGetShouldReturnNotFound" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Get_ShouldReturnNotFound_OnNullProduct" time="0.0439443" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Controllers.ProductsController.Get(Int32 id) in /projects/challenge/HRBackendExercise.API/Controllers/ProductsController.cs:line 18
+   at HRBackendExercise.API.Tests.Hidden.ControllerTests.Get_ShouldReturnNotFound_OnNullProduct() in /projects/challenge/HRBackendExercise.API.Tests/Hidden/ControllerTests.cs:line 74</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="ControllerPutShouldReturnNotFound" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Put_ShouldReturnNotFound_OnNullProduct" time="0.0102041" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Controllers.ProductsController.Put(Product product) in /projects/challenge/HRBackendExercise.API/Controllers/ProductsController.cs:line 28
+   at HRBackendExercise.API.Tests.Hidden.ControllerTests.Put_ShouldReturnNotFound_OnNullProduct() in /projects/challenge/HRBackendExercise.API.Tests/Hidden/ControllerTests.cs:line 306</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="ControllerPutInternalServerErrorShouldHaveMessageProp" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Put_ResponseShouldHasMessageProperty_OnInternalServerErrorScenario" time="0.0090122" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Controllers.ProductsController.Put(Product product) in /projects/challenge/HRBackendExercise.API/Controllers/ProductsController.cs:line 28
+   at HRBackendExercise.API.Tests.Hidden.ControllerTests.Put_ResponseShouldHasMessageProperty_OnInternalServerErrorScenario() in /projects/challenge/HRBackendExercise.API.Tests/Hidden/ControllerTests.cs:line 254</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="ControllerPostShouldImplementService" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Post_ShouldCallCreateFromService" time="0.0023089" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Controllers.ProductsController.Post(Product product) in /projects/challenge/HRBackendExercise.API/Controllers/ProductsController.cs:line 23
+   at HRBackendExercise.API.Tests.Hidden.ControllerTests.Post_ShouldCallCreateFromService() in /projects/challenge/HRBackendExercise.API.Tests/Hidden/ControllerTests.cs:line 112</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="ControllerPostShouldReturnCreated" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Post_ShouldReturnCreatedStatusCode" time="0.0017211" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Controllers.ProductsController.Post(Product product) in /projects/challenge/HRBackendExercise.API/Controllers/ProductsController.cs:line 23
+   at HRBackendExercise.API.Tests.Hidden.ControllerTests.Post_ShouldReturnCreatedStatusCode() in /projects/challenge/HRBackendExercise.API.Tests/Hidden/ControllerTests.cs:line 163</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="ControllerPostShouldBeHttpDecorated" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Post_ShouldHasAccordinglyDecorator" time="0.0307426" result="Fail">
+        <failure>
+          <message>Assert.Contains() Failure: Filter not matched in collection
+Collection: []</message>
+          <stack-trace>   at HRBackendExercise.API.Tests.Hidden.ControllerTests.Post_ShouldHasAccordinglyDecorator() in /projects/challenge/HRBackendExercise.API.Tests/Hidden/ControllerTests.cs:line 148</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="ControllerPostShouldReturnBadRequestOnZeroPrice" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Post_ShouldReturnBadRequest_OnPriceEqualsToZero" time="0.0008310" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Controllers.ProductsController.Post(Product product) in /projects/challenge/HRBackendExercise.API/Controllers/ProductsController.cs:line 23
+   at HRBackendExercise.API.Tests.Hidden.ControllerTests.Post_ShouldReturnBadRequest_OnPriceEqualsToZero() in /projects/challenge/HRBackendExercise.API.Tests/Hidden/ControllerTests.cs:line 214</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="ControllerDeleteShouldReturnNoContent" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Delete_ShouldReturnNoContent" time="0.0014410" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Controllers.ProductsController.Delete(Int32 id) in /projects/challenge/HRBackendExercise.API/Controllers/ProductsController.cs:line 33
+   at HRBackendExercise.API.Tests.Hidden.ControllerTests.Delete_ShouldReturnNoContent() in /projects/challenge/HRBackendExercise.API.Tests/Hidden/ControllerTests.cs:line 448</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="ControllerPutShouldReturnNoContent" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Put_ShouldReturnNoContent" time="0.0021733" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Controllers.ProductsController.Put(Product product) in /projects/challenge/HRBackendExercise.API/Controllers/ProductsController.cs:line 28
+   at HRBackendExercise.API.Tests.Hidden.ControllerTests.Put_ShouldReturnNoContent() in /projects/challenge/HRBackendExercise.API.Tests/Hidden/ControllerTests.cs:line 287</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="ControllerDeleteShouldBeHttpDecorated" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Delete_ShouldHasAccordinglyDecorator" time="0.0011019" result="Fail">
+        <failure>
+          <message>Assert.Contains() Failure: Filter not matched in collection
+Collection: []</message>
+          <stack-trace>   at HRBackendExercise.API.Tests.Hidden.ControllerTests.Delete_ShouldHasAccordinglyDecorator() in /projects/challenge/HRBackendExercise.API.Tests/Hidden/ControllerTests.cs:line 433</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="ControllerGetShouldImplementService" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Get_ShouldCallGetByIdFromService" time="0.0017708" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Controllers.ProductsController.Get(Int32 id) in /projects/challenge/HRBackendExercise.API/Controllers/ProductsController.cs:line 18
+   at HRBackendExercise.API.Tests.Hidden.ControllerTests.Get_ShouldCallGetByIdFromService() in /projects/challenge/HRBackendExercise.API.Tests/Hidden/ControllerTests.cs:line 23</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="ControllerDeleteShouldImplementService" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Delete_ShouldCallDeleteFromService" time="0.0025541" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Controllers.ProductsController.Delete(Int32 id) in /projects/challenge/HRBackendExercise.API/Controllers/ProductsController.cs:line 33
+   at HRBackendExercise.API.Tests.Hidden.ControllerTests.Delete_ShouldCallDeleteFromService() in /projects/challenge/HRBackendExercise.API.Tests/Hidden/ControllerTests.cs:line 393</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="ControllerDeleteInternalServerErrorShouldHaveMessageProp" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Delete_ResponseShouldHasMessageProperty_OnInternalServerErrorScenario" time="0.0022790" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Controllers.ProductsController.Delete(Int32 id) in /projects/challenge/HRBackendExercise.API/Controllers/ProductsController.cs:line 33
+   at HRBackendExercise.API.Tests.Hidden.ControllerTests.Delete_ResponseShouldHasMessageProperty_OnInternalServerErrorScenario() in /projects/challenge/HRBackendExercise.API.Tests/Hidden/ControllerTests.cs:line 415</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="ControllerPutShouldReturnBadRequestOnZeroId" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Put_ShouldReturnBadRequest_OnIdEqualsToZero" time="0.0008630" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Controllers.ProductsController.Put(Product product) in /projects/challenge/HRBackendExercise.API/Controllers/ProductsController.cs:line 28
+   at HRBackendExercise.API.Tests.Hidden.ControllerTests.Put_ShouldReturnBadRequest_OnIdEqualsToZero() in /projects/challenge/HRBackendExercise.API.Tests/Hidden/ControllerTests.cs:line 374</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="ControllerDeleteShouldReturnNotFound" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Delete_ShouldReturnNotFound_OnNullProduct" time="0.0019110" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Controllers.ProductsController.Delete(Int32 id) in /projects/challenge/HRBackendExercise.API/Controllers/ProductsController.cs:line 33
+   at HRBackendExercise.API.Tests.Hidden.ControllerTests.Delete_ShouldReturnNotFound_OnNullProduct() in /projects/challenge/HRBackendExercise.API.Tests/Hidden/ControllerTests.cs:line 470</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="ControllerGetInternalServerErrorShouldHaveMessageProp" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Get_ResponseShouldHasMessageProperty_OnInternalServerErrorScenario" time="0.0044625" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Controllers.ProductsController.Get(Int32 id) in /projects/challenge/HRBackendExercise.API/Controllers/ProductsController.cs:line 18
+   at HRBackendExercise.API.Tests.Hidden.ControllerTests.Get_ResponseShouldHasMessageProperty_OnInternalServerErrorScenario() in /projects/challenge/HRBackendExercise.API.Tests/Hidden/ControllerTests.cs:line 41</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="ControllerDeleteShouldReturnInternalServerError" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Delete_ShouldReturnInternalServerError_OnUnhandledException" time="0.0021321" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Controllers.ProductsController.Delete(Int32 id) in /projects/challenge/HRBackendExercise.API/Controllers/ProductsController.cs:line 33
+   at HRBackendExercise.API.Tests.Hidden.ControllerTests.Delete_ShouldReturnInternalServerError_OnUnhandledException() in /projects/challenge/HRBackendExercise.API.Tests/Hidden/ControllerTests.cs:line 491</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="ControllerPutShouldImplementService" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Put_ShouldCallUpdateFromService" time="0.0029822" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Controllers.ProductsController.Put(Product product) in /projects/challenge/HRBackendExercise.API/Controllers/ProductsController.cs:line 28
+   at HRBackendExercise.API.Tests.Hidden.ControllerTests.Put_ShouldCallUpdateFromService() in /projects/challenge/HRBackendExercise.API.Tests/Hidden/ControllerTests.cs:line 232</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="ControllerPostInternalServerErrorShouldHaveMessageProp" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Post_ResponseShouldHasMessageProperty_OnInternalServerErrorScenario" time="0.0037243" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Controllers.ProductsController.Post(Product product) in /projects/challenge/HRBackendExercise.API/Controllers/ProductsController.cs:line 23
+   at HRBackendExercise.API.Tests.Hidden.ControllerTests.Post_ResponseShouldHasMessageProperty_OnInternalServerErrorScenario() in /projects/challenge/HRBackendExercise.API.Tests/Hidden/ControllerTests.cs:line 130</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="ControllerPutShouldReturnBadRequestOnNullSKU" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Put_ShouldReturnBadRequest_OnNullSKU" time="0.0009304" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Controllers.ProductsController.Put(Product product) in /projects/challenge/HRBackendExercise.API/Controllers/ProductsController.cs:line 28
+   at HRBackendExercise.API.Tests.Hidden.ControllerTests.Put_ShouldReturnBadRequest_OnNullSKU() in /projects/challenge/HRBackendExercise.API.Tests/Hidden/ControllerTests.cs:line 344</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="ControllerPostShouldReturnInternalServerError" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Post_ShouldReturnInternalServerError_OnUnhandledException" time="0.0015751" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Controllers.ProductsController.Post(Product product) in /projects/challenge/HRBackendExercise.API/Controllers/ProductsController.cs:line 23
+   at HRBackendExercise.API.Tests.Hidden.ControllerTests.Post_ShouldReturnInternalServerError_OnUnhandledException() in /projects/challenge/HRBackendExercise.API.Tests/Hidden/ControllerTests.cs:line 182</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="ControllerPutShouldReturnBadRequestOnZeroPrice" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Put_ShouldReturnBadRequest_OnPriceEqualsToZero" time="0.0008664" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Controllers.ProductsController.Put(Product product) in /projects/challenge/HRBackendExercise.API/Controllers/ProductsController.cs:line 28
+   at HRBackendExercise.API.Tests.Hidden.ControllerTests.Put_ShouldReturnBadRequest_OnPriceEqualsToZero() in /projects/challenge/HRBackendExercise.API.Tests/Hidden/ControllerTests.cs:line 359</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="ControllerPutShouldReturnInternalServerError" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Put_ShouldReturnInternalServerError_OnUnhandledException" time="0.0029271" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Controllers.ProductsController.Put(Product product) in /projects/challenge/HRBackendExercise.API/Controllers/ProductsController.cs:line 28
+   at HRBackendExercise.API.Tests.Hidden.ControllerTests.Put_ShouldReturnInternalServerError_OnUnhandledException() in /projects/challenge/HRBackendExercise.API.Tests/Hidden/ControllerTests.cs:line 327</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="ControllerPutShouldBeHttpDecorated" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Put_ShouldHasAccordinglyDecorator" time="0.0016366" result="Fail">
+        <failure>
+          <message>Assert.Contains() Failure: Filter not matched in collection
+Collection: []</message>
+          <stack-trace>   at HRBackendExercise.API.Tests.Hidden.ControllerTests.Put_ShouldHasAccordinglyDecorator() in /projects/challenge/HRBackendExercise.API.Tests/Hidden/ControllerTests.cs:line 272</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="ControllerGetShouldReturnInternalServerError" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Get_ShouldReturnInternalServerError_OnUnhandledException" time="0.0013724" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Controllers.ProductsController.Get(Int32 id) in /projects/challenge/HRBackendExercise.API/Controllers/ProductsController.cs:line 18
+   at HRBackendExercise.API.Tests.Hidden.ControllerTests.Get_ShouldReturnInternalServerError_OnUnhandledException() in /projects/challenge/HRBackendExercise.API.Tests/Hidden/ControllerTests.cs:line 92</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="ControllerGetShouldBeHttpDecorated" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Get_ShouldHasAccordinglyDecorator" time="0.0009281" result="Fail">
+        <failure>
+          <message>Assert.Contains() Failure: Filter not matched in collection
+Collection: []</message>
+          <stack-trace>   at HRBackendExercise.API.Tests.Hidden.ControllerTests.Get_ShouldHasAccordinglyDecorator() in /projects/challenge/HRBackendExercise.API.Tests/Hidden/ControllerTests.cs:line 59</stack-trace>
+        </failure>
+        <traits />
+      </test>
+    </collection>
+    <collection total="6" passed="0" failed="6" skipped="0" name="Test collection for HRBackendExercise.API.Tests.Hidden.ServiceTests" time="0.014">
+      <test name="ServiceCreateShouldCreateARecord" type="HRBackendExercise.API.Tests.Hidden.ServiceTests" method="Create_ShouldAddARecord" time="0.0006207" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Services.ProductService.Create(Product entity) in /projects/challenge/HRBackendExercise.API/Services/ProductService.cs:line 10
+   at HRBackendExercise.API.Tests.Hidden.ServiceTests.Create_ShouldAddARecord() in /projects/challenge/HRBackendExercise.API.Tests/Hidden/ServiceTests.cs:line 49</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="ServiceUpdateShouldThrowArgumentBasedException" type="HRBackendExercise.API.Tests.Hidden.ServiceTests" method="Update_ShouldThrowArgumentBasedException_OnInvalidId" time="0.0007071" result="Fail">
+        <failure>
+          <message>Assert.StartsWith() Failure: String start does not match
+String:         "The method or operation is not implemente"···
+Expected start: "Invalid entity."</message>
+          <stack-trace>   at HRBackendExercise.API.Tests.Hidden.ServiceTests.Update_ShouldThrowArgumentBasedException_OnInvalidId() in /projects/challenge/HRBackendExercise.API.Tests/Hidden/ServiceTests.cs:line 93</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="ServiceCreateShouldIgnoreInputId" type="HRBackendExercise.API.Tests.Hidden.ServiceTests" method="Create_ShouldIgnoreInputModelId" time="0.0025597" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Services.ProductService.Create(Product entity) in /projects/challenge/HRBackendExercise.API/Services/ProductService.cs:line 10
+   at HRBackendExercise.API.Tests.Hidden.ServiceTests.Create_ShouldIgnoreInputModelId() in /projects/challenge/HRBackendExercise.API.Tests/Hidden/ServiceTests.cs:line 35</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="ServiceCreateShouldAssignIncrementalIds" type="HRBackendExercise.API.Tests.Hidden.ServiceTests" method="Create_ShouldAssignIncrementalIds" time="0.0005230" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Services.ProductService.Create(Product entity) in /projects/challenge/HRBackendExercise.API/Services/ProductService.cs:line 10
+   at HRBackendExercise.API.Tests.Hidden.ServiceTests.Create_ShouldAssignIncrementalIds() in /projects/challenge/HRBackendExercise.API.Tests/Hidden/ServiceTests.cs:line 16</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="ServiceGetShouldReturnNullOnEmptyCollection" type="HRBackendExercise.API.Tests.Hidden.ServiceTests" method="Get_ShouldReturnNull_OnEmptyCollection" time="0.0086461" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Services.ProductService.GetById(Int32 id) in /projects/challenge/HRBackendExercise.API/Services/ProductService.cs:line 15
+   at HRBackendExercise.API.Tests.Hidden.ServiceTests.Get_ShouldReturnNull_OnEmptyCollection() in /projects/challenge/HRBackendExercise.API.Tests/Hidden/ServiceTests.cs:line 64</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="ServiceGetShouldReturnNullOnInvalidId" type="HRBackendExercise.API.Tests.Hidden.ServiceTests" method="Get_ShouldReturnNull_OnInvalidId" time="0.0004487" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at HRBackendExercise.API.Services.ProductService.Create(Product entity) in /projects/challenge/HRBackendExercise.API/Services/ProductService.cs:line 10
+   at HRBackendExercise.API.Tests.Hidden.ServiceTests.Get_ShouldReturnNull_OnInvalidId() in /projects/challenge/HRBackendExercise.API.Tests/Hidden/ServiceTests.cs:line 77</stack-trace>
+        </failure>
+        <traits />
+      </test>
+    </collection>
+  </assembly>
+</assemblies>
